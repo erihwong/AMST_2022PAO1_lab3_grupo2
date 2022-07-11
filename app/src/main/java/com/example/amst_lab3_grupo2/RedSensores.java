@@ -34,7 +34,7 @@ public class RedSensores extends AppCompatActivity {
         this.token = (String)login.getExtras().get("token");
         revisarSensores();
 
-        /*btn_next = (Button) findViewById(R.id.btn_datos);
+        btn_next = (Button) findViewById(R.id.btn_datos);
         btn_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +42,7 @@ public class RedSensores extends AppCompatActivity {
                 ingresar_datos.putExtra("token", token);
                 startActivity(ingresar_datos);
             }
-        });*/
+        });
     }
 
     private void revisarSensores(){
