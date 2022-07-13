@@ -3,13 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SANCHEZ/AndroidStudioProjects/lab3Grupo2/AMST_2022PAO1_lab3_grupo2/app/src/main/res/layout/activity_ingresar_datos.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/SANCHEZ/AndroidStudioProjects/lab3Grupo2/AMST_2022PAO1_lab3_grupo2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/SANCHEZ/AndroidStudioProjects/lab3Grupo2/AMST_2022PAO1_lab3_grupo2/app/src/main/res/layout/activity_menu.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/SANCHEZ/AndroidStudioProjects/lab3Grupo2/AMST_2022PAO1_lab3_grupo2/app/src/main/res/layout/activity_red_sensores.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/erick/Downloads/Semestre8/AplicMovYServiciosTelematicos/Laboratorio/Lab3/AMST_Lab3_Grupo2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/erick/Downloads/Semestre8/AplicMovYServiciosTelematicos/Laboratorio/Lab3/AMST_Lab3_Grupo2/app/src/main/res/layout/activity_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/erick/Downloads/Semestre8/AplicMovYServiciosTelematicos/Laboratorio/Lab3/AMST_Lab3_Grupo2/app/src/main/res/layout/activity_red_sensores.xml" value="0.264" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
