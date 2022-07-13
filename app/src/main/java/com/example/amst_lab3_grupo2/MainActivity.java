@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
 import android.content.Intent;
 import android.widget.EditText;
@@ -55,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
         JSONObject parametros = new JSONObject(params);
 
-        String login_url = "https://amstlabx.herokuapp.com/db/nuevo-jwt";
+        String login_url = "https://amst-labx.herokuapp.com/db/nuevo-jwt";
 
         JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.POST, login_url, parametros, new Response.Listener<JSONObject>(){

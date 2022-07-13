@@ -11,9 +11,8 @@
         android:layout_height="423dp"
         android:gravity="center"
         android:orientation="vertical"
-
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constrainedStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
 
@@ -48,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#5707E4"
-            android:onClick=""
+            android:onClick="irMenuPrincipal"
             android:text="Inicio de Sesion"
             android:textColor="#FAFAAB"/>
 

@@ -50,7 +50,7 @@ public class RedSensores extends AppCompatActivity {
         final TextView pesoValue = (TextView) findViewById(R.id.pesoVal);
         final TextView humedadValue = (TextView) findViewById(R.id.humedadVal);
 
-        String url_temp = "https://amstlabx.herokuapp.com/api/sensores/1";
+        String url_temp = "https://amst-labx.herokuapp.com/api/sensores/1";
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url_temp, null,
                 new Response.Listener<JSONObject>() {
                     @Override
@@ -77,7 +77,7 @@ public class RedSensores extends AppCompatActivity {
         };
         mQueue.add(request);
 
-        String url_humedad = "https://amstlabx.herokuapp.com/api/sensores/2";
+        String url_humedad = "https://amst-labx.herokuapp.com/api/sensores/2";
         JsonObjectRequest request_humedad = new JsonObjectRequest(Request.Method.GET, url_humedad, null,
                 new Response.Listener<JSONObject>() {
                     @Override
@@ -104,7 +104,7 @@ public class RedSensores extends AppCompatActivity {
         };
         mQueue.add(request_humedad);
 
-        String url_peso = "https://amstlabx.herokuapp.com/api/sensores/3";
+        String url_peso = "https://amst-labx.herokuapp.com/api/sensores/3";
         JsonObjectRequest request_peso = new JsonObjectRequest(Request.Method.GET, url_peso, null,
                 new Response.Listener<JSONObject>() {
                     @Override
